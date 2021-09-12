@@ -1,0 +1,354 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.containerstart
+{
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+   
+
+
+}
+.nav {
+    width: 98.5%;
+    background-color:grey;
+    position: fixed;
+    top: 0px;
+    height: 70px;
+    padding: 0px 20px;
+    margin-bottom: 15px;
+}
+.nav h2{
+    line-height: 50px;
+    float: left;
+}
+.nav .menu {
+    list-style: none;
+    float: right;
+}
+.menu li {
+    line-height: 70px;
+    display: inline-block;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 20px;
+    transition: .4s;
+    
+}
+.menu li a:hover {
+    color: goldenrod;
+    background-color: white;
+    padding: 20px;
+}
+html{
+    scroll-padding-top: 70px;
+    scroll-behavior: smooth;
+}
+.picture1
+{
+    background-image: url('../assests/background1.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    height: 680px;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    font-size: 40px;
+    color: white;
+    /* position: relative; */
+}
+.picture1 h2{
+    /* top: 60px;
+    left: 16px;
+    margin-left: 5px; */
+    margin: 20px 20px;
+    color:white;
+    font-size: 40px; 
+    font-weight: bold; 
+    /* position: absolute; */
+}
+.team
+{
+    width: 100%;
+    height: 320px;
+}
+.pic
+{
+    width: 30%;
+    height: 300px;
+    background-position:cover;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.card
+{
+    width: 20%;
+    float: left;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+.card img{
+    width: 100%;
+    padding: 5%;
+    border-radius: 15%;
+}
+/* img
+{
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 10%;
+} */
+.text
+{
+    padding: 5%;
+}
+.techno
+{
+
+    width: 100%;
+    height: 500px;
+}
+#container
+{
+    width: 100%;
+    margin: 15px auto;
+    height: 500px;
+    background-color: aqua;
+}
+.image1
+{
+    height: 53.5%;
+}
+.mybutton
+{
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: red;
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.mybutton:hover
+{
+    background-color: blue;
+}
+h2
+{
+    color: black;
+    margin-block-start: 18px;
+}
+h3{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section2
+{
+    width: 99%;
+    height: 400px;
+    width: 100%;
+}
+.left
+{
+    padding-top: 20px;
+    width: 48%;
+    height: 360px;
+    float: left;
+    background-color:grey;
+    font-size: 25px;
+    color: white;
+    margin-left: 5px;
+    overflow: hidden;
+}    
+.right
+{
+    width: 48%;
+    height: 400px;
+    float: right;
+    margin-top: -1%;
+}
+.article1{
+    background-image: url('../assests/Untitled\ design\ \(1\).png');
+    width: 100%;
+    height: 112px;
+    margin-top: auto;
+    margin-bottom: 2%;
+    font-size: 25px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 620px 150px
+
+}
+.article2{
+    
+    background-image: url('../assests/Untitled\ design\ \(2\).png');
+    width: 100%;
+    height: 112px;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 25px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 620px 150px
+}
+.article3
+{
+    background-image: url('../assests/visit\ us!.png');
+    width: 100%;
+    height: 112px;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 620px 150px
+}
+.pic{
+    width: 100%;
+    height: 280px;
+}
+
+.cirpic1
+{
+    width: 22%;
+    height: 230px;
+    border-radius: 50%;  
+    margin-left: 10px;
+}
+.cirpic2
+{
+    width: 22%;
+    height: 230px;
+    border-radius: 50%;  
+    margin-left: 10px;
+}
+.cirpic3
+{
+    width: 22%;
+    height: 230px;
+    border-radius: 50%;  
+    margin-left: 10px;
+}
+.cirpic4
+{
+    width: 22%;
+    height: 230px;
+    border-radius: 50%;  
+    margin-left: 10px;
+}
+.description
+{
+    width: 100%;
+    height: 80px;
+    background-color: darkgoldenrod;
+    text-align: center;
+    padding-top: 15px;
+    font-weight:bold
+}
+.show-btn ,.hide-btn{
+    line-height: 70px;
+    color: white;
+    font-size: 25px;
+    display: none;
+}
+.show-btn{
+    float: right;
+}
+.show-btn:hover,.hide-btn:hover
+{
+    background-color: goldenrod;
+}
+#chk
+{
+    position: absolute;
+    visibility: hidden;
+    z-index: -10;
+}
+@media(max-width:800px)
+{
+    .nav{
+        width: 97%;
+        background-color: grey;
+        position: fixed;
+        top: 0;
+        height: 70px;
+    }
+    .show-btn,.hide-btn{
+        display: block; 
+    }
+    .menu{
+        position: fixed;
+        top: 0;
+        right: -100%;  /*slider effect*/
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        text-align: center;
+        padding: 80px 0;
+        transition: .9s;
+        line-height: normal;
+    }
+    #chk:checked ~ .menu
+    {
+        right: 0;
+    }
+    .menu li{
+        display: block;
+        /* padding: 20px 0; */
+    }
+    .menu li a {
+        display: block;
+      }
+
+    .hide-btn{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+    .picture1{
+        width: 100%;
+        margin-bottom: 15px;
+        margin-top: 90px;
+    }
+    .picture1 h2{
+        margin: 10px 20px;
+        color: white;
+        font-size: 35px;
+    }
+    .team {
+        width: 90%;
+        flex-shrink: 0;
+    }
+    .pic
+    {
+        width: 900px;
+        flex-shrink: 0;
+    }
+    .cirpic img {
+        width: 200px;
+        flex-shrink:0;
+        
+    }
+    
+}
