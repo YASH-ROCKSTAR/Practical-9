@@ -1,354 +1,443 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.containerstart
-{
-    overflow: hidden;
-    width: 100%;
-    padding: 10px;
-   
-
-
+.containerstart {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
 }
 .nav {
-    width: 98.5%;
-    background-color:grey;
-    position: fixed;
-    top: 0px;
-    height: 70px;
-    padding: 0px 20px;
-    margin-bottom: 15px;
+  width: 100%;
+  max-width: 1200px;
+  background-color: grey;
+  position: fixed;
+  top: 0px;
+  height: 70px;
 }
-.nav h2{
-    line-height: 50px;
-    float: left;
+.nav h2 {
+  line-height: 50px;
+  float: left;
+  margin-left: 5px;
 }
 .nav .menu {
-    list-style: none;
-    float: right;
+  list-style: none;
+  float: right;
 }
 .menu li {
-    line-height: 70px;
-    display: inline-block;
+  line-height: 70px;
+  display: inline-block;
 }
 .menu li a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 0px 20px;
-    transition: .4s;
-    
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0px 20px;
+  transition: 0.4s;
 }
 .menu li a:hover {
-    color: goldenrod;
-    background-color: white;
-    padding: 20px;
+  color: goldenrod;
+  background-color: white;
+  padding: 20px;
 }
-html{
-    scroll-padding-top: 70px;
-    scroll-behavior: smooth;
+html {
+  scroll-padding-top: 70px;
+  scroll-behavior: smooth;
 }
-.picture1
-{
-    background-image: url('../assests/background1.png');
-    background-size: cover;
-    background-position: center;
-    margin-top: 70px;
-    height: 680px;
-    width: 100%;
-    margin-bottom: 15px;
-    display: flex;
-    font-size: 40px;
-    color: white;
-    /* position: relative; */
+.picture1 {
+  width: 100%;
+  margin-top: 90px;
+  height: 680px;
+  margin-bottom: 15px;
+  background-image: url("../assests/background1.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  font-size: 40px;
+  color: white;
 }
-.picture1 h2{
-    /* top: 60px;
-    left: 16px;
-    margin-left: 5px; */
-    margin: 20px 20px;
-    color:white;
-    font-size: 40px; 
-    font-weight: bold; 
-    /* position: absolute; */
+.picture1 h2 {
+  margin: 20px 20px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
 }
-.team
-{
-    width: 100%;
-    height: 320px;
+.team {
+  width: 100%;
 }
-.pic
-{
-    width: 30%;
-    height: 300px;
-    background-position:cover;
-    display: flex;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    box-sizing: border-box;
-    border-radius: 20px;
+.team::after {
+  content: "";
+  display: block;
+  clear: both;
 }
-.card
-{
-    width: 20%;
-    float: left;
-    margin-left: 50px;
-    background-color: white;
-    border-radius: 8px;
-    
+.cirpic img {
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+  /* display: flex; */
+  margin-bottom: 50px;
+  margin-left: 50px;
+  float: left;
+  /* box-sizing: border-box; */
+  border-radius: 50%;
+  flex-wrap: wrap;
 }
-.card img{
-    width: 100%;
-    padding: 5%;
-    border-radius: 15%;
+.section2 {
+  width: 100%;
 }
-/* img
-{
-    margin-left: 4%;
-    margin-right: 2%;
-    margin-top: 2%;
-    border-radius: 10%;
-} */
-.text
-{
-    padding: 5%;
+.section2::after {
+  content: "";
+  display: block;
+  clear: both;
 }
-.techno
-{
-
-    width: 100%;
-    height: 500px;
-}
-#container
-{
-    width: 100%;
-    margin: 15px auto;
-    height: 500px;
-    background-color: aqua;
-}
-.image1
-{
-    height: 53.5%;
-}
-.mybutton
-{
-    margin-top: 10px;
-    text-decoration: none;
-    background-color: red;
-    display: block;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-.mybutton:hover
-{
-    background-color: blue;
-}
-h2
-{
-    color: black;
-    margin-block-start: 18px;
-}
-h3{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.section2
-{
-    width: 99%;
-    height: 400px;
-    width: 100%;
-}
-.left
-{
-    padding-top: 20px;
+.left {
+  /* padding-top: 20px;
     width: 48%;
     height: 360px;
     float: left;
     background-color:grey;
     font-size: 25px;
     color: white;
-    margin-left: 5px;
-    overflow: hidden;
-}    
-.right
-{
-    width: 48%;
-    height: 400px;
-    float: right;
-    margin-top: -1%;
+    margin-left: 5px; */
+  width: 50%;
+  height: 450px;
+  background-color: gray;
+  float: left;
+  color: #fff;
+  overflow: hidden;
 }
-.article1{
-    background-image: url('../assests/Untitled\ design\ \(1\).png');
-    width: 100%;
-    height: 112px;
-    margin-top: auto;
-    margin-bottom: 2%;
-    font-size: 25px;
-    color: white;
-    background-repeat: no-repeat;
-    background-size: 620px 150px
+.left h4 {
+  text-align: left;
+  margin: 10px 5px;
+}
+.left p {
+  text-align: justify;
+  line-height: 28px;
+  font-size: 20px;
+  padding: 10px;
+}
+.right {
+  width: 48%;
+  height: 450px;
+  float: right;
+}
+.article1 {
+  background-image: url("../assests/Untitled\ design\ \(1\).png");
+  width: 100%;
+  height: 31%;
+  margin-top: -2%;
+  margin-bottom: 2%;
+  font-size: 25px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 620px;
+  /* margin-left: 30px; */
+}
+.article2 {
+  background-image: url("../assests/Untitled\ design\ \(2\).png");
+  width: 100%;
+  height: 31%;
+  margin-top: 2.5%;
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: 25px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 620px 150px;
+  /* margin-left: 30px; */
+}
+.article3 {
+  background-image: url("../assests/visit\ us!.png");
+  width: 100%;
+  height: 31%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 620px 150px;
+  /* margin-left: 30px; */
+}
 
-}
-.article2{
-    
-    background-image: url('../assests/Untitled\ design\ \(2\).png');
+/* From here technology */
+.techno {
     width: 100%;
-    height: 112px;
-    text-align: center;
-    margin-bottom: 2%;
-    font-size: 25px;
-    color: white;
-    background-repeat: no-repeat;
-    background-size: 620px 150px
+    margin-bottom: 20px;
 }
-.article3
+#container {
+    width: 100%;
+    /* margin: 15px auto; */
+    /* margin-left: 50px; */
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 70vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  /* #container::after {
+    content: "";
+    display: block;
+    clear: both;
+  } */
+.card {
+  width: 20%;
+  float: left;
+  /* margin-left: 50px; */
+  background-color: grey;
+  border-radius: 9px;
+  justify-content: space-evenly;
+  align-items:center;
+  /* position: fixed; */
+  flex-wrap: wrap;
+  height: 61vh;
+  /* border: 2px solid red; */
+}
+.card img {
+  width: 97%;
+  border-radius: 15px;
+  /* margin-left: 10px; */
+  margin: 6px 4px;
+  margin-top: 2px;
+  justify-items: center;
+}
+.card h4{
+    margin: 0px 10px;
+    text-align: center;
+    justify-content: center;
+}
+.text {
+  margin:10px;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  color: white;
+}
+.card a{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card a:hover{
+    background-color: blue;
+}
+/* h2 {
+  color: black;
+  margin-block-start: 18px;
+} */
+/* h3 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} */
+.contact
 {
-    background-image: url('../assests/visit\ us!.png');
     width: 100%;
-    height: 112px;
-    margin-bottom: 2%;
+    height: 13vh;
+}
+.description {
+  width: 100%;
+  height: 13vh;
+  background-color: darkgoldenrod;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.show-btn,
+.hide-btn {
+  line-height: 70px;
+  color: white;
+  font-size: 25px;
+  display: none;
+  padding-right: 20px;
+}
+.show-btn {
+  float: right;
+}
+.show-btn:hover,
+.hide-btn:hover {
+  background-color: goldenrod;
+}
+#chk {
+  position: absolute;
+  visibility: hidden;
+  z-index: -10;
+}
+@media (max-width: 800px) and (max-width: 1199px) {
+  .nav {
+    width: 100%;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    height: 70px;
+  }
+  .show-btn,
+  .hide-btn {
+    display: block;
+    font-size: 30px;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /*slider effect*/
+    width: 100%;
+    height: 70vh;
+    background-color: black;
     text-align: center;
-    font-size: 25px;
-    color: white;
-    background-repeat: no-repeat;
-    background-size: 620px 150px
-}
-.pic{
-    width: 100%;
-    height: 280px;
-}
+    padding: 80px 0;
+    transition: 0.9s;
+    line-height: normal;
+  }
+  #chk:checked ~ .menu {
+    right: 0;
+  }
+  .menu li {
+    display: block;
+    padding: 5px 0;
+  }
+  .menu li a {
+    display: block;
+  }
 
-.cirpic1
-{
-    width: 22%;
-    height: 230px;
-    border-radius: 50%;  
-    margin-left: 10px;
-}
-.cirpic2
-{
-    width: 22%;
-    height: 230px;
-    border-radius: 50%;  
-    margin-left: 10px;
-}
-.cirpic3
-{
-    width: 22%;
-    height: 230px;
-    border-radius: 50%;  
-    margin-left: 10px;
-}
-.cirpic4
-{
-    width: 22%;
-    height: 230px;
-    border-radius: 50%;  
-    margin-left: 10px;
-}
-.description
-{
-    width: 100%;
-    height: 80px;
-    background-color: darkgoldenrod;
-    text-align: center;
-    padding-top: 15px;
-    font-weight:bold
-}
-.show-btn ,.hide-btn{
-    line-height: 70px;
-    color: white;
-    font-size: 25px;
-    display: none;
-}
-.show-btn{
-    float: right;
-}
-.show-btn:hover,.hide-btn:hover
-{
-    background-color: goldenrod;
-}
-#chk
-{
+  .hide-btn {
+    display: block;
     position: absolute;
-    visibility: hidden;
-    z-index: -10;
-}
-@media(max-width:800px)
-{
-    .nav{
-        width: 97%;
-        background-color: grey;
-        position: fixed;
-        top: 0;
-        height: 70px;
-    }
-    .show-btn,.hide-btn{
-        display: block; 
-    }
-    .menu{
-        position: fixed;
-        top: 0;
-        right: -100%;  /*slider effect*/
-        width: 100%;
-        height: 100vh;
-        background-color: black;
-        text-align: center;
-        padding: 80px 0;
-        transition: .9s;
-        line-height: normal;
-    }
-    #chk:checked ~ .menu
-    {
-        right: 0;
-    }
-    .menu li{
-        display: block;
-        /* padding: 20px 0; */
-    }
-    .menu li a {
-        display: block;
-      }
-
-    .hide-btn{
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 10px;
-    }
-    .picture1{
-        width: 100%;
-        margin-bottom: 15px;
-        margin-top: 90px;
-    }
-    .picture1 h2{
-        margin: 10px 20px;
-        color: white;
-        font-size: 35px;
-    }
-    .team {
-        width: 90%;
-        flex-shrink: 0;
-    }
-    .pic
-    {
-        width: 900px;
-        flex-shrink: 0;
-    }
-    .cirpic img {
-        width: 200px;
-        flex-shrink:0;
-        
-    }
-    
+    top: 20px;
+    right: 10px;
+  }
+  .picture1 {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 90px;
+  }
+  .picture1 h2 {
+    margin: 10px 20px;
+    color: white;
+    font-size: 35px;
+  }
+  .team {
+    width: 100%;
+    border: 2px solid black;
+  }
+  .team::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .cirpic img {
+    /* display: block; */
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+  .left {
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .left h4 {
+    text-align: left;
+    margin: 5px 5px;
+  }
+  .left p {
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 28px;
+  }
+  .right {
+    width: 100%;
+    height: 450px;
+  }
+  .article1 {
+    height: 31%;
+    margin-bottom: 20px;
+    background-image: url("../assests/Untitled\ design\ \(1\).png");
+    display: inline-flex;
+    justify-content: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .article2 {
+    height: 31%;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url("../assests/Untitled\ design\ \(2\).png");
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .article3 {
+    height: 31%;
+    margin-bottom: 20px;
+    background-image: url("../assests/visit\ us!.png");
+    display: inline-flex;
+    justify-content: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .techno{
+      width: 100%;
+      margin: 15px auto;
+      height: 154vh;
+  }
+  #container
+  {
+      height: 100vh;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  .card {
+    width: 40%;
+    display: flex;
+    height: 72vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color:grey;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .card img {
+    width: 100%;
+    padding: 2%;
+    border-radius: 15%;
+  }
+  .text {
+    padding: 5%;
+  }
+  .card a{
+      /* align-items: center; */
+      padding: 15px;
+      /* display: block; */
+      /* margin: -30%; */
+      
+  }
+  .contact{
+      width: 100%;
+      height: 15vh;
+      line-height: 70px;
+      text-overflow: clip;
+  }
+  .description{
+      width: 100%;
+  }
 }
